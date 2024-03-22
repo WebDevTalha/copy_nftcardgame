@@ -15,7 +15,6 @@ const Home = () => {
 
       if (!playerExists) {
         const reg = await contract.registerPlayer(playerName, playerName);
-        console.log(reg);
 
         setShowAlert({
           status: true,
